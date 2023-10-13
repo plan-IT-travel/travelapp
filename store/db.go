@@ -9,7 +9,7 @@ var db *gorm.DB
 
 func InitDB() error {
 	var err error
-	db, err = gorm.Open("postgres", "host=localhost user=jonathangray dbname=planit sslmode=disable")
+	db, err = gorm.Open("postgres", "host=localhost user=postgres dbname=planit sslmode=disable")
 	return err
 }
 
