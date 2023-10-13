@@ -14,3 +14,7 @@ func NewDBService() *DBService {
 		DB: store.GetDB(),
 	}
 }
+
+type ItineraryService struct {
+	DB DBService
+}
