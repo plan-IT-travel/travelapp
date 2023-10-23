@@ -10,7 +10,7 @@
  */
 
 import React from 'react';
-import Group from './Group.jsx';
+import Group from './Group.js';
 import { useSelector } from 'react-redux';
 
 // initialState = { groupName="", travelDestination = "", dates="", groupId = "", groupList = []};

@@ -2,7 +2,7 @@ import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { useEffect } from 'react';
 import { setItineraryItems } from '../features/slice';
-import Activity from './../components/Activity';
+import Activity from '../components/Activity';
 const ActivityDisplayContainer = () => {
   // Get the current group being viewed from the store
   const { groupId, activityList } = useSelector((store)=>store.groups);

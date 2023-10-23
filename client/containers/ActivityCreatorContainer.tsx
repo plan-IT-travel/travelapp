@@ -1,5 +1,4 @@
 import React from "react";
-import { useDispatch, useSelector } from "react-redux";
 
 const ActivityCreatorContainer = () => {
     /**
@@ -32,4 +31,4 @@ const ActivityCreatorContainer = () => {
     )
 };
 
-export default AddItinItemForm;
+export default ActivityCreatorContainer;

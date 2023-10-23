@@ -1,0 +1,47 @@
+{
+    "compilerOptions": {
+      /* Basic Options */
+      "target": "es6",                          /* Specify ECMAScript target version */
+      "module": "esnext",                       /* Specify module code generation */
+      "lib": ["dom", "es6", "dom.iterable"],    /* Specify library files to be included in the compilation */
+  
+      /* Directories */
+      "rootDir": "./src",                       /* Specify the root directory of input files */
+      "outDir": "./dist",                       /* Redirect output structure to this directory */
+  
+      /* Strict Type-Checking Options */
+      "strict": true,                           /* Enable all strict type-checking options */
+  
+      /* Additional Checks */
+      "noUnusedLocals": true,                   /* Report errors on unused locals */
+      "noUnusedParameters": true,               /* Report errors on unused parameters */
+      "noImplicitReturns": true,                /* Report error when not all code paths in function return a value */
+      "noFallthroughCasesInSwitch": true,       /* Report errors for fallthrough cases in switch statement */
+      "noImplicitAny": true, 
+      /* Module Resolution Options */
+      "moduleResolution": "node",               /* How module names are resolved */
+      "esModuleInterop": true,                  /* Enables emit interoperability between CommonJS and ES Modules via creation of namespace objects */
+      "resolveJsonModule": true,                /* Allow json imports */
+  
+      /* Experimental Options */
+      "experimentalDecorators": true,           /* Enables experimental support for ES7 decorators */
+      "jsx": "react",                           /* Support JSX in .tsx files: "react" uses the React.createElement, "preserve" keeps JSX */
+      
+      /* Source Map Options */
+      "sourceMap": true,                        /* Generates corresponding .map file */
+  
+      /* Other */
+      "skipLibCheck": true,                     /* Skip type checking of declaration files (typings) */
+  
+      /* Paths and Aliases (can be customized as per project needs) */
+      "baseUrl": "./client",
+      "paths": {
+        "@components/*": ["components/*"],
+        "@utils/*": ["utils/*"],
+        // Add other aliases here
+      }
+    },
+    "include": ["client/**/*.ts", "client/**/*.tsx"], /* Files to be compiled */
+    "exclude": ["node_modules"]                /* Excludes compiling node_modules */
+  }
+  
